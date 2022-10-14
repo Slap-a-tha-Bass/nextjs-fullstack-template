@@ -1,7 +1,13 @@
 {
-  "name": "nextjs-fullstack",
+  "name": "nextjs-fullstack-template",
   "version": "0.1.0",
+  "author": "Corey DeLoach",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0",
+    "yarn": "please-use-npm"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
