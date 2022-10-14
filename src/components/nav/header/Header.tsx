@@ -8,7 +8,7 @@ export interface IHeader {
 
 export default function Header({ className, ...headerProps }: IHeader) {
   return (
-    <header {...headerProps} className={styles.container}>
+    <header {...headerProps} className={`${styles.container} ${className}`}>
       <div className="space-x-5 m-5">
         <Link href="/">
           <a className="hover:underline">Home</a>
