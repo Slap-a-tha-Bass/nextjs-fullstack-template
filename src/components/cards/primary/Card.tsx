@@ -7,7 +7,7 @@ export interface ICard {
   body?: string;
   author?: string;
   time?: string;
-  imgURL?: 'imgURL' | 'imgURL2';
+  imgURL?: string;
   avatarURL?: string;
 }
 
