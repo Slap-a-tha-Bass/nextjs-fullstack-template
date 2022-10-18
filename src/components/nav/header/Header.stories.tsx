@@ -3,7 +3,7 @@ import Header, { IHeader } from './Header';
 import { MockHeader } from './Header.mocks';
 
 export default {
-  title: 'nav/Header',
+  title: 'components/nav/Header',
   component: Header,
   argTypes: {},
 } as ComponentMeta<typeof Header>;

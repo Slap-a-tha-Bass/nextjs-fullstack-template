@@ -1,13 +1,13 @@
-import { IDefaultCard } from './DefaultCard';
+import { ICard } from './Card';
 
-const DefaultCardMock: IDefaultCard = {
+const CardMock: ICard = {
   tag: 'Tag',
   title: 'Title',
   body: 'Body',
   author: 'Author',
   time: 'Time',
 };
-const AltCardMock: IDefaultCard = {
+const AltCardMock: ICard = {
   tag: 'Alt Tag',
   title: 'Alt Title',
   body: 'Alt Body',
@@ -15,4 +15,4 @@ const AltCardMock: IDefaultCard = {
   time: 'Alt Time',
 };
 
-export const MockDefaultCard = { DefaultCardMock, AltCardMock };
+export const MockCard = { CardMock, AltCardMock };

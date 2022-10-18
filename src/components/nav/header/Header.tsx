@@ -9,23 +9,21 @@ export interface IHeader {
 export default function Header({ className, ...headerProps }: IHeader) {
   return (
     <header {...headerProps} className={`${styles.container} ${className}`}>
-      <div className="space-x-5 m-5">
-        <Link href="/">
-          <a className="hover:underline">Home</a>
-        </Link>
-        <Link href="/">
-          <a className="hover:underline">Store</a>
-        </Link>
-      </div>
-      <div className="space-x-5 m-5">
-        <Link href="/">
-          <a className="hover:underline hidden sm:inline">Gmail</a>
-        </Link>
-        <Link href="/">
-          <a className="hover:underline hidden sm:inline">Images</a>
-        </Link>
-        {/* <AuthButton /> */}
-      </div>
+      <Link href="/">
+        <a className="hover:underline">Home</a>
+      </Link>
+
+      <Link href="/">
+        <a className="hover:underline">Store</a>
+      </Link>
+
+      <Link href="/">
+        <a className="hover:underline hidden sm:inline">Gmail</a>
+      </Link>
+      <Link href="/">
+        <a className="hover:underline hidden sm:inline">Images</a>
+      </Link>
+      {/* <AuthButton /> */}
     </header>
   );
 }
