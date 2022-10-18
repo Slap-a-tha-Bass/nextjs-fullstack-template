@@ -6,10 +6,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Sidebar
-        title="Components"
-        arrayOfLinks={['Cards', 'Nav', 'Sidebar']}
-        title2="Layouts"
-        arrayOfLinks2={['Header', 'Footer']}
+        title={'Library'}
+        section="Components"
+        arrayOfLinks={['Cards', 'Navs', 'Sidebars', 'Buttons'].sort()}
+        section2="Layouts"
+        arrayOfLinks2={['Headers', 'Footers'].sort()}
       />
       <Component {...pageProps} />
     </>

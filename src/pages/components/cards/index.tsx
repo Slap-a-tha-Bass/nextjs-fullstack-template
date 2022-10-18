@@ -5,6 +5,11 @@ export default function Cards() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+        <p className={styles.description}>
+          <code className={styles.code}>
+            src/pages/components/cards/index.tsx
+          </code>
+        </p>
         <Card
           tag="Tag"
           title="Title"
