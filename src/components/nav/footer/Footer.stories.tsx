@@ -3,7 +3,7 @@ import Footer, { IFooter } from './Footer';
 import { MockFooter } from './Footer.mocks';
 
 export default {
-  title: 'components/nav/Footer',
+  title: 'components/display/nav/Footer',
   component: Footer,
   argTypes: {},
 } as ComponentMeta<typeof Footer>;

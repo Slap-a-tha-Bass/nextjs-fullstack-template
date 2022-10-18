@@ -12,8 +12,8 @@ const Template: ComponentStory<typeof PrimaryLayout> = (args) => (
   <PrimaryLayout {...args} />
 );
 
-export const Default = Template.bind({});
+export const Primary = Template.bind({});
 
-Default.args = {
+Primary.args = {
   ...MockPrimaryLayout.PrimaryLayoutMock,
 } as IPrimaryLayout;

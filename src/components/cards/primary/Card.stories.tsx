@@ -3,15 +3,15 @@ import Card, { ICard } from './Card';
 import { MockCard } from './Card.mocks';
 
 export default {
-  title: 'components/cards/Card',
+  title: 'components/display/cards/Card',
   component: Card,
   argTypes: {},
 } as ComponentMeta<typeof Card>;
 
 const Template: ComponentStory<typeof Card> = (args) => <Card {...args} />;
 
-export const Card_Primary = Template.bind({});
+export const Primary = Template.bind({});
 
-Card_Primary.args = {
+Primary.args = {
   ...MockCard.CardMock,
 } as ICard;
