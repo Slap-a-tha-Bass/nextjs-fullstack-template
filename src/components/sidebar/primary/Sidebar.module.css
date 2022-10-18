@@ -4,7 +4,8 @@
   left: 0;
   height: 100vh;
   width: 20%;
-  background: linear-gradient(to right, #a2a2a2 0%, #b9b9b9 10%, #f2f2f2 100%);
+  background: linear-gradient(to left, #090909 0%, #3b3b3b 10%, #5e5e5e 100%);
+  color: #fafafa;
 }
 .main {
   display: block;
@@ -13,32 +14,27 @@
   margin: 0 auto;
 }
 .main p {
-  color: #2b2b2b;
   font-size: 1rem;
   font-weight: 600;
   text-align: left;
   margin-left: 1.5rem;
 }
-.main p:hover {
-  color: #0070f3;
+.main p:hover,
+.main h2:hover {
+  color: #c7c7c7;
 }
 .main h1 {
-  color: #2b2b2b;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: left;
   margin-left: 0.5rem;
 }
 .main h2 {
-  color: #2b2b2b;
   font-size: 1.25rem;
   font-weight: 600;
   text-align: left;
   margin-left: 1rem;
   cursor: pointer;
-}
-.main h2:hover {
-  color: #0070f3;
 }
 .toggle_btn {
   position: relative;
@@ -58,7 +54,7 @@
   display: block;
   width: 10px;
   height: 1px;
-  background: #2b2b2b;
+  background: #fafafa;
   transition: 0.3s ease-in-out;
 }
 

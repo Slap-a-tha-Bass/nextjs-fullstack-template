@@ -15,7 +15,6 @@
 }
 
 .card {
-  font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
@@ -41,8 +40,7 @@
 }
 
 .tag-blue {
-  background: #56ccf2;
-  background: linear-gradient(to bottom, #2f80ed, #56ccf2);
+  background: linear-gradient(to bottom, #000000, #7d7d7d);
   color: #fafafa;
 }
 

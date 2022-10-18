@@ -14,7 +14,7 @@ a {
 a:hover > h1,
 a:hover > h2,
 a:hover > p {
-  color: #0070f3;
+  color: #c7c7c7;
   cursor: pointer;
 }
 button {

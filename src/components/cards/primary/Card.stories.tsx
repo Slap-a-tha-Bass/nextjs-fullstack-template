@@ -15,3 +15,9 @@ export const Primary = Template.bind({});
 Primary.args = {
   ...MockCard.CardMock,
 } as ICard;
+
+export const Secondary = Template.bind({});
+
+Secondary.args = {
+  ...MockCard.AltCardMock,
+} as ICard;

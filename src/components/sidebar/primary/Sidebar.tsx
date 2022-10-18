@@ -11,6 +11,7 @@ export interface ISidebar {
   arrayOfLinks2?: string[];
   disabled?: boolean;
 }
+
 export default function Sidebar({
   title,
   section,

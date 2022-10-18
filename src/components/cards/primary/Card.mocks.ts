@@ -1,8 +1,8 @@
 import { ICard } from './Card';
 
 const CardMock: ICard = {
-  tag: 'Tag',
-  title: 'Title',
+  tag: 'Card',
+  title: 'OrderItemCard',
   body: 'Body',
   author: 'Author',
   time: 'Time',
