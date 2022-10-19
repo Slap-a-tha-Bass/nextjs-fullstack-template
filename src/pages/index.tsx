@@ -12,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <main className={styles.main}>
         <div>
+          <button>Test Button</button>
           <h2>CCG Component Library</h2>
           <p>Documentation is in the works...</p>
           <p>Please be patient</p>

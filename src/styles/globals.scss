@@ -1,9 +1,23 @@
+$primary: #3326a8;
+$secondary: #af5302;
+$white: #e4e4e4;
+
+@mixin button-primary($width, $height, $padding, $border-radius) {
+  border-width: $width;
+  height: $height;
+  padding: $padding;
+  border-radius: $border-radius;
+  background: linear-gradient(to bottom, $primary, $secondary);
+  color: $white;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: $white;
 }
 
 a {
@@ -14,11 +28,12 @@ a {
 a:hover > h1,
 a:hover > h2,
 a:hover > p {
-  color: #c7c7c7;
+  color: #797979;
   cursor: pointer;
 }
 button {
-  background-clip: none;
+  // button-primary(
+  @include button-primary(1px, 50px, 0.5rem, 10px);
 }
 * {
   box-sizing: border-box;

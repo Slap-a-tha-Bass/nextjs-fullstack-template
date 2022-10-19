@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './Card.module.css';
+import styles from './Card.module.scss';
 
 export interface ICard {
   tag?: string;
