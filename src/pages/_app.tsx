@@ -1,5 +1,5 @@
 import Sidebar from '@components/sidebar/primary/Sidebar';
-import '@styles/globals.scss';
+import '@styles/css/styles.css';
 import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {

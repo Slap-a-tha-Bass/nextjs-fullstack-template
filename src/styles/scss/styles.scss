@@ -1,0 +1,29 @@
+@use 'abstracts' as *;
+@use 'components' as *;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background-clip: none;
+}
+a:hover > h1,
+a:hover > h2,
+a:hover > p {
+  color: #797979;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  background-clip: none;
+}
+* {
+  box-sizing: border-box;
+}
